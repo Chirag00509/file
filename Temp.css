@@ -1,0 +1,49 @@
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background: rgb(78, 78, 207);
+}
+h1{
+    color: white;
+    font-weight: 500;
+    margin-top: -20rem;
+}
+.detail{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+.input-data{
+    margin-top: 10rem;
+}
+.input{
+    outline: none;
+    border: none;
+    width: 25rem;
+    height: 1.5rem;
+    padding: .25rem .5rem; 
+    font-size: 1rem;
+    margin-right: .25rem;
+}
+.btn{
+    height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(206, 164, 87);
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+.output{
+    font-size: 20px;
+
+}
